@@ -69,8 +69,6 @@ public class Autobus{
     }
     
     public void gestionarMarcha() {
-        //this.enMarcha = isEnMarcha() ? true : false;
-        //this.enMarcha = isMotorEncendido() ? true : false;
         if (isMotorEncendido() && !isPuertaAbierta()){this.enMarcha = isEnMarcha() ? false : true;}
         else {this.enMarcha = false;}
     }
